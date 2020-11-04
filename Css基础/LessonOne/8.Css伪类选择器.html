@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8.Css伪类选择器</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        a:link {
+            color: red;
+        }
+        
+        a:visited {
+            color: #ccc;
+        }
+        
+        a:hover {
+            color: yellow;
+        }
+        
+        a:active {
+            color: skyblue;
+        }
+        
+        div {
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+        
+        div:hover {
+            color: #fff;
+            width: 400px;
+            height: 400px;
+            font-size: 40px;
+        }
+        
+        div:active {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div>你要穿厚点衣服天冷</div>
+    <a href="http://www.baidu.com">我现在想过去抱住你暖和</a>
+</body>
+
+</html>
